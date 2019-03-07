@@ -1,14 +1,14 @@
-name: Herring Cove
-author: Herring Cove
-baseurl: /herring-cove
+name: Yujung Lee
+author: Yujung Lee
+baseurl: /
 description: theme for jekyll
-github: http://www.github.com/arnp
+github: https://yujungl.github.io/
 twitter: http://www.twitter.com/
 facebook: http://www.facebook.com
 linkedin: http://www.linkedin.com
-email: rnpatel[at]me.com
+email: dldbwjd7579@gmail.com
 location: 42°2'16"N   70°12'47"W
-disqus: diqus-username
+disqus: 
 
 ##Make sure to edit the above fields, especially for disqus.
 
