@@ -3,26 +3,28 @@ title: Email Form
 ---
 
 <div class="container">
-  <form action="https://formspree.io/{{site.email}}">
-     <div class="row">
-        <div class="container col-md-5">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-				</div>
-				<div class="container col-md-5">
-					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
-				</div>
-    </div>
-    <div class="row">
-				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
-				</ul>
-    </div>
-  </form>
+	<form action="https://formspree.io/{{site.email}}">
+		<div class="row">
+			<div class="container col-md-5">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" />
+			</div>
+			<div class="container col-md-5">
+				<label for="email">Email</label>
+				<input type="text" name="_replyto" id="email" />
+			</div>
+		</div>
+		<div class="row">  
+			<div class="container col-md-10">
+				<label for="message">Message</label>
+				<textarea name="message" id="message" rows="6"></textarea>
+			</div>
+		</div>
+		<div class="row">
+			<ul class="actions">
+				<li><input type="submit" value="Send Message" class="btn btn-default showcase-button" /></li>
+				<li><input type="reset" value="Clear" class="btn btn-default"/></li>
+			</ul>
+		</div>
+	</form>
 </div>
