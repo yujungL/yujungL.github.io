@@ -5,23 +5,23 @@ title: Email Form
 <div class="container user-card">
 	<form action="https://formspree.io/{{site.email}}" method="POST">
 		<div class="row">
-			<div class="col-md-5">
+			<div class="col-md-6">
 				<label for="name">Name</label>
 				<input type="text" name="name" id="name" class="form-control"/>
 			</div>
-			<div class="col-md-5">
+			<div class="col-md-6">
 				<label for="email">Email</label>
 				<input type="text" name="_replyto" id="email" class="form-control"/>
 			</div>
 		</div>
 		<div class="row">  
-			<div class="col-md-10 letter">
+			<div class="col-md-12 letter">
 				<label for="message">Message</label>
 				<textarea name="message" id="message" rows="6" class="form-control"></textarea>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-10 pull-right">
+			<div class="pull-right">
 				<input type="submit" value="Send Message" class="btn btn-info" />
 			</div>
 		</div>
