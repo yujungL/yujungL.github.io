@@ -762,5 +762,10 @@ time
   margin: 0 0 0 0;
   padding: 15px 15px 0 15px;
 }
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+}
   
 }
