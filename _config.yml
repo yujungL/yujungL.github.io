@@ -8,9 +8,10 @@ facebook: http://www.facebook.com
 linkedin: http://www.linkedin.com
 email: dldbwjd7579@gmail.com
 location: 37.509911 126.981611
-disqus: 
+disqus: yjlee.disqus.com
 
 ##Make sure to edit the above fields, especially for disqus.
+
 
 
 highlighter: pygments
