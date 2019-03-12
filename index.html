@@ -8,9 +8,10 @@ title: Y.J.LEE
 <div class="recent-posts">
   <div class="col-md-12">
     <div class="col-md-6"><h2>Recent Posts<h2></div>
-      <div class="col-md-6"><a href="{{ site.baseurl }}/list.html" class="pull-right">More</a></div>
+    <div class="col-md-6"><a href="{{ site.baseurl }}/list.html" class="pull-right">More</a></div>
   </div>
-  <br/> <hr/> <br/>
+  <hr class="col-md-12"/>  
+  <br/> <br/>
   <div>
   {% for post in site.posts limit: 3 %}
     {% if forloop.first %}
