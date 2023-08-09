@@ -32,7 +32,7 @@ categories: docs
 > Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque
 
 ## 이미지
-{% include aligner.html images="cake.jpeg" column=1 %}
+{% include aligner.html images="cake.png" column=1 %}
 
 ## 목록
 * 목록1
