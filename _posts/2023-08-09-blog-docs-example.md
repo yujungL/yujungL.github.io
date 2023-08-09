@@ -32,7 +32,7 @@ categories: docs
 > Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque
 
 ## 이미지
-{% include aligner.html images="assets/img/cake.jpeg" column=1 %}
+{% include aligner.html images="/cake.jpeg" column=1 %}
 
 ## 목록
 * 목록1
@@ -49,12 +49,10 @@ categories: docs
 * 목록3
 
 ## 펼침
-```html
 <details>
     <summary>누르시오</summary>
     펼쳐짐
 </details>
-```
 
 ## 수학
 $$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
